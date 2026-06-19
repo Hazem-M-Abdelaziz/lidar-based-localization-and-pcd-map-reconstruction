@@ -1,0 +1,628 @@
+[0.000000] (-) TimerEvent: {}
+[0.000105] (lidar_pose_estimator) JobQueued: {'identifier': 'lidar_pose_estimator', 'dependencies': OrderedDict()}
+[0.000132] (lidar_pose_estimator) JobStarted: {'identifier': 'lidar_pose_estimator'}
+[0.039581] (lidar_pose_estimator) JobProgress: {'identifier': 'lidar_pose_estimator', 'progress': 'cmake'}
+[0.040849] (lidar_pose_estimator) Command: {'cmd': ['/usr/bin/cmake', '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator'], 'cwd': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3345-1-hazem_TIME386753', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hazem-m-abdelaziz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hazem-m-abdelaziz', 'OLDPWD': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2936', 'SYSTEMD_EXEC_PID': '3345', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5284', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hazem-m-abdelaziz', 'JOURNAL_STREAM': '9:25800', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hazem-m-abdelaziz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/MATLAB/R2026a/bin', 'SESSION_MANAGER': 'local/hazem:@/tmp/.ICE-unix/3302,unix/hazem:/tmp/.ICE-unix/3302', 'INVOCATION_ID': '06fe6842d5234314971701b67a1c70e2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install/lidar_pose_estimator:/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces:/home/hazem-m-abdelaziz/ros2_ws/install/diff_bot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a89fbfca-be2a-424b-94c7-cd0695a02e38', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/jazzy/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install/lidar_pose_estimator:/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces:/home/hazem-m-abdelaziz/ros2_ws/install/diff_bot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099627] (-) TimerEvent: {}
+[0.200018] (-) TimerEvent: {}
+[0.250174] (lidar_pose_estimator) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300137] (-) TimerEvent: {}
+[0.400486] (-) TimerEvent: {}
+[0.433350] (lidar_pose_estimator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.451572] (lidar_pose_estimator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500595] (-) TimerEvent: {}
+[0.544462] (lidar_pose_estimator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.557554] (lidar_pose_estimator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.558238] (lidar_pose_estimator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.581527] (lidar_pose_estimator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.593340] (lidar_pose_estimator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600704] (-) TimerEvent: {}
+[0.695943] (lidar_pose_estimator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.700809] (-) TimerEvent: {}
+[0.705794] (lidar_pose_estimator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.706080] (lidar_pose_estimator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.706540] (lidar_pose_estimator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.755397] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.801221] (-) TimerEvent: {}
+[0.901621] (-) TimerEvent: {}
+[0.984891] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.001760] (-) TimerEvent: {}
+[1.102119] (-) TimerEvent: {}
+[1.202640] (-) TimerEvent: {}
+[1.302913] (-) TimerEvent: {}
+[1.364657] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.403057] (-) TimerEvent: {}
+[1.503367] (-) TimerEvent: {}
+[1.576533] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.603526] (-) TimerEvent: {}
+[1.629493] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.670875] (lidar_pose_estimator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.696197] (lidar_pose_estimator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.703627] (-) TimerEvent: {}
+[1.803866] (-) TimerEvent: {}
+[1.904460] (-) TimerEvent: {}
+[1.936533] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.953284] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.004623] (-) TimerEvent: {}
+[2.105177] (-) TimerEvent: {}
+[2.180016] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.205314] (-) TimerEvent: {}
+[2.262813] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.300320] (lidar_pose_estimator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.305425] (-) TimerEvent: {}
+[2.405619] (-) TimerEvent: {}
+[2.442450] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.505772] (-) TimerEvent: {}
+[2.570067] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.605907] (-) TimerEvent: {}
+[2.613558] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[2.637400] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.706046] (-) TimerEvent: {}
+[2.806326] (-) TimerEvent: {}
+[2.870170] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[2.906734] (-) TimerEvent: {}
+[2.939521] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.953918] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.954112] (lidar_pose_estimator) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.960613] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found tf2_eigen: 0.36.20 (/opt/ros/jazzy/share/tf2_eigen/cmake)\n'}
+[2.967371] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[3.006874] (-) TimerEvent: {}
+[3.107266] (-) TimerEvent: {}
+[3.207659] (-) TimerEvent: {}
+[3.236631] (lidar_pose_estimator) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[3.236985] (lidar_pose_estimator) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[3.237138] (lidar_pose_estimator) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[3.237274] (lidar_pose_estimator) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[3.237421] (lidar_pose_estimator) StderrLine: {'line': b'\n'}
+[3.237570] (lidar_pose_estimator) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[3.237705] (lidar_pose_estimator) StderrLine: {'line': b'\n'}
+[3.237831] (lidar_pose_estimator) StderrLine: {'line': b'    /usr\n'}
+[3.237955] (lidar_pose_estimator) StderrLine: {'line': b'\n'}
+[3.238079] (lidar_pose_estimator) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[3.238386] (lidar_pose_estimator) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[3.238543] (lidar_pose_estimator) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.238679] (lidar_pose_estimator) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[3.238807] (lidar_pose_estimator) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[3.238932] (lidar_pose_estimator) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[3.239056] (lidar_pose_estimator) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[3.239181] (lidar_pose_estimator) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[3.239306] (lidar_pose_estimator) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[3.239444] (lidar_pose_estimator) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.239600] (lidar_pose_estimator) StderrLine: {'line': b'\x1b[0m\n'}
+[3.255866] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[3.307821] (-) TimerEvent: {}
+[3.408122] (-) TimerEvent: {}
+[3.508489] (-) TimerEvent: {}
+[3.608774] (-) TimerEvent: {}
+[3.670258] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[3.670586] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[3.708914] (-) TimerEvent: {}
+[3.809164] (-) TimerEvent: {}
+[3.909453] (-) TimerEvent: {}
+[4.009757] (-) TimerEvent: {}
+[4.110104] (-) TimerEvent: {}
+[4.210450] (-) TimerEvent: {}
+[4.310714] (-) TimerEvent: {}
+[4.410997] (-) TimerEvent: {}
+[4.511268] (-) TimerEvent: {}
+[4.611546] (-) TimerEvent: {}
+[4.711822] (-) TimerEvent: {}
+[4.812084] (-) TimerEvent: {}
+[4.912501] (-) TimerEvent: {}
+[5.012791] (-) TimerEvent: {}
+[5.113080] (-) TimerEvent: {}
+[5.169698] (lidar_pose_estimator) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[5.182650] (lidar_pose_estimator) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[5.212661] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[5.213177] (-) TimerEvent: {}
+[5.213619] (lidar_pose_estimator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.266887] (lidar_pose_estimator) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.270504] (lidar_pose_estimator) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[5.286751] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[5.311477] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[5.313293] (-) TimerEvent: {}
+[5.413521] (-) TimerEvent: {}
+[5.513803] (-) TimerEvent: {}
+[5.614095] (-) TimerEvent: {}
+[5.714369] (-) TimerEvent: {}
+[5.755049] (lidar_pose_estimator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.760267] (lidar_pose_estimator) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.814462] (-) TimerEvent: {}
+[5.914697] (-) TimerEvent: {}
+[6.014986] (-) TimerEvent: {}
+[6.115251] (-) TimerEvent: {}
+[6.216142] (-) TimerEvent: {}
+[6.232908] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[6.316288] (-) TimerEvent: {}
+[6.416586] (-) TimerEvent: {}
+[6.516881] (-) TimerEvent: {}
+[6.617133] (-) TimerEvent: {}
+[6.682357] (lidar_pose_estimator) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.717268] (-) TimerEvent: {}
+[6.817523] (-) TimerEvent: {}
+[6.917804] (-) TimerEvent: {}
+[7.018082] (-) TimerEvent: {}
+[7.112959] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[7.114357] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[7.115691] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[7.117113] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[7.118173] (-) TimerEvent: {}
+[7.118323] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[7.119846] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[7.120252] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[7.120748] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[7.122130] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[7.123518] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[7.124932] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[7.126309] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[7.127810] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[7.129225] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[7.130546] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[7.132085] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[7.133498] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[7.134888] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[7.136332] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[7.137743] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[7.138591] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[7.139010] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[7.139497] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[7.140829] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[7.142239] (lidar_pose_estimator) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[7.218295] (-) TimerEvent: {}
+[7.245926] (lidar_pose_estimator) StdoutLine: {'line': b'-- Configuring done (7.2s)\n'}
+[7.318707] (-) TimerEvent: {}
+[7.419041] (-) TimerEvent: {}
+[7.492610] (lidar_pose_estimator) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[7.507687] (lidar_pose_estimator) StdoutLine: {'line': b'-- Build files have been written to: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator\n'}
+[7.519180] (-) TimerEvent: {}
+[7.533163] (lidar_pose_estimator) CommandEnded: {'returncode': 0}
+[7.534049] (lidar_pose_estimator) JobProgress: {'identifier': 'lidar_pose_estimator', 'progress': 'build'}
+[7.535179] (lidar_pose_estimator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator', '--', '-j8', '-l8'], 'cwd': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3345-1-hazem_TIME386753', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hazem-m-abdelaziz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hazem-m-abdelaziz', 'OLDPWD': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2936', 'SYSTEMD_EXEC_PID': '3345', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5284', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hazem-m-abdelaziz', 'JOURNAL_STREAM': '9:25800', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hazem-m-abdelaziz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/MATLAB/R2026a/bin', 'SESSION_MANAGER': 'local/hazem:@/tmp/.ICE-unix/3302,unix/hazem:/tmp/.ICE-unix/3302', 'INVOCATION_ID': '06fe6842d5234314971701b67a1c70e2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install/lidar_pose_estimator:/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces:/home/hazem-m-abdelaziz/ros2_ws/install/diff_bot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a89fbfca-be2a-424b-94c7-cd0695a02e38', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/jazzy/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install/lidar_pose_estimator:/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces:/home/hazem-m-abdelaziz/ros2_ws/install/diff_bot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.593136] (lidar_pose_estimator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_pose_estimator_node.dir/src/lidar_pose_estimator_node.cpp.o\x1b[0m\n'}
+[7.619515] (-) TimerEvent: {}
+[7.719872] (-) TimerEvent: {}
+[7.820447] (-) TimerEvent: {}
+[7.920900] (-) TimerEvent: {}
+[8.021390] (-) TimerEvent: {}
+[8.122003] (-) TimerEvent: {}
+[8.222518] (-) TimerEvent: {}
+[8.322861] (-) TimerEvent: {}
+[8.423243] (-) TimerEvent: {}
+[8.523713] (-) TimerEvent: {}
+[8.624250] (-) TimerEvent: {}
+[8.724675] (-) TimerEvent: {}
+[8.825130] (-) TimerEvent: {}
+[8.925555] (-) TimerEvent: {}
+[9.025950] (-) TimerEvent: {}
+[9.126245] (-) TimerEvent: {}
+[9.226593] (-) TimerEvent: {}
+[9.326883] (-) TimerEvent: {}
+[9.427179] (-) TimerEvent: {}
+[9.527736] (-) TimerEvent: {}
+[9.628315] (-) TimerEvent: {}
+[9.728671] (-) TimerEvent: {}
+[9.829199] (-) TimerEvent: {}
+[9.929515] (-) TimerEvent: {}
+[10.029856] (-) TimerEvent: {}
+[10.130325] (-) TimerEvent: {}
+[10.230703] (-) TimerEvent: {}
+[10.331177] (-) TimerEvent: {}
+[10.431719] (-) TimerEvent: {}
+[10.532081] (-) TimerEvent: {}
+[10.632517] (-) TimerEvent: {}
+[10.732981] (-) TimerEvent: {}
+[10.833281] (-) TimerEvent: {}
+[10.933672] (-) TimerEvent: {}
+[11.034075] (-) TimerEvent: {}
+[11.134364] (-) TimerEvent: {}
+[11.234650] (-) TimerEvent: {}
+[11.334937] (-) TimerEvent: {}
+[11.435229] (-) TimerEvent: {}
+[11.535543] (-) TimerEvent: {}
+[11.635870] (-) TimerEvent: {}
+[11.736153] (-) TimerEvent: {}
+[11.836918] (-) TimerEvent: {}
+[11.937272] (-) TimerEvent: {}
+[12.037676] (-) TimerEvent: {}
+[12.138101] (-) TimerEvent: {}
+[12.238659] (-) TimerEvent: {}
+[12.339064] (-) TimerEvent: {}
+[12.439510] (-) TimerEvent: {}
+[12.540388] (-) TimerEvent: {}
+[12.640684] (-) TimerEvent: {}
+[12.740930] (-) TimerEvent: {}
+[12.841271] (-) TimerEvent: {}
+[12.941647] (-) TimerEvent: {}
+[13.042111] (-) TimerEvent: {}
+[13.142544] (-) TimerEvent: {}
+[13.242823] (-) TimerEvent: {}
+[13.343293] (-) TimerEvent: {}
+[13.443898] (-) TimerEvent: {}
+[13.544361] (-) TimerEvent: {}
+[13.644814] (-) TimerEvent: {}
+[13.745243] (-) TimerEvent: {}
+[13.845671] (-) TimerEvent: {}
+[13.945954] (-) TimerEvent: {}
+[14.046218] (-) TimerEvent: {}
+[14.146498] (-) TimerEvent: {}
+[14.246774] (-) TimerEvent: {}
+[14.347064] (-) TimerEvent: {}
+[14.447356] (-) TimerEvent: {}
+[14.547637] (-) TimerEvent: {}
+[14.647870] (-) TimerEvent: {}
+[14.748164] (-) TimerEvent: {}
+[14.848459] (-) TimerEvent: {}
+[14.948768] (-) TimerEvent: {}
+[15.049108] (-) TimerEvent: {}
+[15.149427] (-) TimerEvent: {}
+[15.249714] (-) TimerEvent: {}
+[15.349981] (-) TimerEvent: {}
+[15.450265] (-) TimerEvent: {}
+[15.550560] (-) TimerEvent: {}
+[15.650897] (-) TimerEvent: {}
+[15.751225] (-) TimerEvent: {}
+[15.851602] (-) TimerEvent: {}
+[15.951893] (-) TimerEvent: {}
+[16.052142] (-) TimerEvent: {}
+[16.152396] (-) TimerEvent: {}
+[16.252683] (-) TimerEvent: {}
+[16.352972] (-) TimerEvent: {}
+[16.453271] (-) TimerEvent: {}
+[16.553607] (-) TimerEvent: {}
+[16.653917] (-) TimerEvent: {}
+[16.754169] (-) TimerEvent: {}
+[16.854438] (-) TimerEvent: {}
+[16.954696] (-) TimerEvent: {}
+[17.054971] (-) TimerEvent: {}
+[17.155254] (-) TimerEvent: {}
+[17.255574] (-) TimerEvent: {}
+[17.355873] (-) TimerEvent: {}
+[17.456200] (-) TimerEvent: {}
+[17.556467] (-) TimerEvent: {}
+[17.656733] (-) TimerEvent: {}
+[17.757010] (-) TimerEvent: {}
+[17.857302] (-) TimerEvent: {}
+[17.957621] (-) TimerEvent: {}
+[18.057943] (-) TimerEvent: {}
+[18.158282] (-) TimerEvent: {}
+[18.258549] (-) TimerEvent: {}
+[18.358816] (-) TimerEvent: {}
+[18.459102] (-) TimerEvent: {}
+[18.559386] (-) TimerEvent: {}
+[18.659735] (-) TimerEvent: {}
+[18.760083] (-) TimerEvent: {}
+[18.860374] (-) TimerEvent: {}
+[18.960685] (-) TimerEvent: {}
+[19.060949] (-) TimerEvent: {}
+[19.161209] (-) TimerEvent: {}
+[19.261472] (-) TimerEvent: {}
+[19.361767] (-) TimerEvent: {}
+[19.462067] (-) TimerEvent: {}
+[19.562368] (-) TimerEvent: {}
+[19.662703] (-) TimerEvent: {}
+[19.763005] (-) TimerEvent: {}
+[19.863286] (-) TimerEvent: {}
+[19.963575] (-) TimerEvent: {}
+[20.063862] (-) TimerEvent: {}
+[20.164175] (-) TimerEvent: {}
+[20.264498] (-) TimerEvent: {}
+[20.364831] (-) TimerEvent: {}
+[20.465186] (-) TimerEvent: {}
+[20.565480] (-) TimerEvent: {}
+[20.665744] (-) TimerEvent: {}
+[20.766031] (-) TimerEvent: {}
+[20.866321] (-) TimerEvent: {}
+[20.966639] (-) TimerEvent: {}
+[21.066930] (-) TimerEvent: {}
+[21.167223] (-) TimerEvent: {}
+[21.267490] (-) TimerEvent: {}
+[21.367757] (-) TimerEvent: {}
+[21.468041] (-) TimerEvent: {}
+[21.568340] (-) TimerEvent: {}
+[21.668652] (-) TimerEvent: {}
+[21.768983] (-) TimerEvent: {}
+[21.869273] (-) TimerEvent: {}
+[21.969548] (-) TimerEvent: {}
+[22.069808] (-) TimerEvent: {}
+[22.170079] (-) TimerEvent: {}
+[22.270368] (-) TimerEvent: {}
+[22.370734] (-) TimerEvent: {}
+[22.471055] (-) TimerEvent: {}
+[22.571334] (-) TimerEvent: {}
+[22.671606] (-) TimerEvent: {}
+[22.771869] (-) TimerEvent: {}
+[22.872128] (-) TimerEvent: {}
+[22.972417] (-) TimerEvent: {}
+[23.072691] (-) TimerEvent: {}
+[23.172972] (-) TimerEvent: {}
+[23.273267] (-) TimerEvent: {}
+[23.373599] (-) TimerEvent: {}
+[23.473872] (-) TimerEvent: {}
+[23.574138] (-) TimerEvent: {}
+[23.674398] (-) TimerEvent: {}
+[23.774695] (-) TimerEvent: {}
+[23.875015] (-) TimerEvent: {}
+[23.975358] (-) TimerEvent: {}
+[24.075664] (-) TimerEvent: {}
+[24.175953] (-) TimerEvent: {}
+[24.276270] (-) TimerEvent: {}
+[24.376543] (-) TimerEvent: {}
+[24.476830] (-) TimerEvent: {}
+[24.577157] (-) TimerEvent: {}
+[24.677475] (-) TimerEvent: {}
+[24.777778] (-) TimerEvent: {}
+[24.878079] (-) TimerEvent: {}
+[24.978343] (-) TimerEvent: {}
+[25.078620] (-) TimerEvent: {}
+[25.178889] (-) TimerEvent: {}
+[25.279152] (-) TimerEvent: {}
+[25.379434] (-) TimerEvent: {}
+[25.479764] (-) TimerEvent: {}
+[25.580095] (-) TimerEvent: {}
+[25.680404] (-) TimerEvent: {}
+[25.780674] (-) TimerEvent: {}
+[25.880946] (-) TimerEvent: {}
+[25.981255] (-) TimerEvent: {}
+[26.081564] (-) TimerEvent: {}
+[26.181859] (-) TimerEvent: {}
+[26.282166] (-) TimerEvent: {}
+[26.382478] (-) TimerEvent: {}
+[26.482752] (-) TimerEvent: {}
+[26.583008] (-) TimerEvent: {}
+[26.683287] (-) TimerEvent: {}
+[26.783637] (-) TimerEvent: {}
+[26.884001] (-) TimerEvent: {}
+[26.984349] (-) TimerEvent: {}
+[27.084751] (-) TimerEvent: {}
+[27.185137] (-) TimerEvent: {}
+[27.285445] (-) TimerEvent: {}
+[27.385742] (-) TimerEvent: {}
+[27.486126] (-) TimerEvent: {}
+[27.586688] (-) TimerEvent: {}
+[27.686975] (-) TimerEvent: {}
+[27.787254] (-) TimerEvent: {}
+[27.887596] (-) TimerEvent: {}
+[27.987961] (-) TimerEvent: {}
+[28.088221] (-) TimerEvent: {}
+[28.188509] (-) TimerEvent: {}
+[28.288793] (-) TimerEvent: {}
+[28.389128] (-) TimerEvent: {}
+[28.489384] (-) TimerEvent: {}
+[28.589705] (-) TimerEvent: {}
+[28.690014] (-) TimerEvent: {}
+[28.790294] (-) TimerEvent: {}
+[28.890562] (-) TimerEvent: {}
+[28.990876] (-) TimerEvent: {}
+[29.091235] (-) TimerEvent: {}
+[29.191613] (-) TimerEvent: {}
+[29.291945] (-) TimerEvent: {}
+[29.392227] (-) TimerEvent: {}
+[29.492531] (-) TimerEvent: {}
+[29.592836] (-) TimerEvent: {}
+[29.693150] (-) TimerEvent: {}
+[29.793476] (-) TimerEvent: {}
+[29.894486] (-) TimerEvent: {}
+[29.994873] (-) TimerEvent: {}
+[30.095258] (-) TimerEvent: {}
+[30.195551] (-) TimerEvent: {}
+[30.295887] (-) TimerEvent: {}
+[30.396176] (-) TimerEvent: {}
+[30.496463] (-) TimerEvent: {}
+[30.596769] (-) TimerEvent: {}
+[30.697053] (-) TimerEvent: {}
+[30.797323] (-) TimerEvent: {}
+[30.897559] (-) TimerEvent: {}
+[30.997811] (-) TimerEvent: {}
+[31.098087] (-) TimerEvent: {}
+[31.198361] (-) TimerEvent: {}
+[31.298662] (-) TimerEvent: {}
+[31.398944] (-) TimerEvent: {}
+[31.499224] (-) TimerEvent: {}
+[31.599454] (-) TimerEvent: {}
+[31.699722] (-) TimerEvent: {}
+[31.799964] (-) TimerEvent: {}
+[31.900221] (-) TimerEvent: {}
+[32.000499] (-) TimerEvent: {}
+[32.100794] (-) TimerEvent: {}
+[32.201080] (-) TimerEvent: {}
+[32.301383] (-) TimerEvent: {}
+[32.401627] (-) TimerEvent: {}
+[32.501878] (-) TimerEvent: {}
+[32.602145] (-) TimerEvent: {}
+[32.702438] (-) TimerEvent: {}
+[32.802717] (-) TimerEvent: {}
+[32.902956] (-) TimerEvent: {}
+[33.003234] (-) TimerEvent: {}
+[33.103453] (-) TimerEvent: {}
+[33.203705] (-) TimerEvent: {}
+[33.303985] (-) TimerEvent: {}
+[33.404266] (-) TimerEvent: {}
+[33.504618] (-) TimerEvent: {}
+[33.604939] (-) TimerEvent: {}
+[33.705260] (-) TimerEvent: {}
+[33.805569] (-) TimerEvent: {}
+[33.905894] (-) TimerEvent: {}
+[34.006190] (-) TimerEvent: {}
+[34.106465] (-) TimerEvent: {}
+[34.206692] (-) TimerEvent: {}
+[34.306968] (-) TimerEvent: {}
+[34.407246] (-) TimerEvent: {}
+[34.507529] (-) TimerEvent: {}
+[34.607758] (-) TimerEvent: {}
+[34.708002] (-) TimerEvent: {}
+[34.808260] (-) TimerEvent: {}
+[34.908537] (-) TimerEvent: {}
+[35.008833] (-) TimerEvent: {}
+[35.109162] (-) TimerEvent: {}
+[35.209475] (-) TimerEvent: {}
+[35.309785] (-) TimerEvent: {}
+[35.410051] (-) TimerEvent: {}
+[35.510286] (-) TimerEvent: {}
+[35.610543] (-) TimerEvent: {}
+[35.711464] (-) TimerEvent: {}
+[35.811756] (-) TimerEvent: {}
+[35.912050] (-) TimerEvent: {}
+[36.012435] (-) TimerEvent: {}
+[36.112768] (-) TimerEvent: {}
+[36.213012] (-) TimerEvent: {}
+[36.313275] (-) TimerEvent: {}
+[36.413555] (-) TimerEvent: {}
+[36.513849] (-) TimerEvent: {}
+[36.614136] (-) TimerEvent: {}
+[36.714470] (-) TimerEvent: {}
+[36.814793] (-) TimerEvent: {}
+[36.915075] (-) TimerEvent: {}
+[37.015326] (-) TimerEvent: {}
+[37.115621] (-) TimerEvent: {}
+[37.215905] (-) TimerEvent: {}
+[37.316193] (-) TimerEvent: {}
+[37.416470] (-) TimerEvent: {}
+[37.516793] (-) TimerEvent: {}
+[37.617132] (-) TimerEvent: {}
+[37.717377] (-) TimerEvent: {}
+[37.817664] (-) TimerEvent: {}
+[37.917939] (-) TimerEvent: {}
+[38.018227] (-) TimerEvent: {}
+[38.118503] (-) TimerEvent: {}
+[38.218799] (-) TimerEvent: {}
+[38.319080] (-) TimerEvent: {}
+[38.419344] (-) TimerEvent: {}
+[38.519644] (-) TimerEvent: {}
+[38.619930] (-) TimerEvent: {}
+[38.720210] (-) TimerEvent: {}
+[38.820492] (-) TimerEvent: {}
+[38.920775] (-) TimerEvent: {}
+[39.021058] (-) TimerEvent: {}
+[39.121375] (-) TimerEvent: {}
+[39.221632] (-) TimerEvent: {}
+[39.321898] (-) TimerEvent: {}
+[39.422191] (-) TimerEvent: {}
+[39.522471] (-) TimerEvent: {}
+[39.622746] (-) TimerEvent: {}
+[39.723031] (-) TimerEvent: {}
+[39.823348] (-) TimerEvent: {}
+[39.923712] (-) TimerEvent: {}
+[40.023954] (-) TimerEvent: {}
+[40.124221] (-) TimerEvent: {}
+[40.224498] (-) TimerEvent: {}
+[40.324775] (-) TimerEvent: {}
+[40.425077] (-) TimerEvent: {}
+[40.525368] (-) TimerEvent: {}
+[40.625642] (-) TimerEvent: {}
+[40.725980] (-) TimerEvent: {}
+[40.826262] (-) TimerEvent: {}
+[40.926547] (-) TimerEvent: {}
+[41.026831] (-) TimerEvent: {}
+[41.127117] (-) TimerEvent: {}
+[41.227396] (-) TimerEvent: {}
+[41.327736] (-) TimerEvent: {}
+[41.428018] (-) TimerEvent: {}
+[41.528262] (-) TimerEvent: {}
+[41.628522] (-) TimerEvent: {}
+[41.728812] (-) TimerEvent: {}
+[41.829102] (-) TimerEvent: {}
+[41.929384] (-) TimerEvent: {}
+[42.029668] (-) TimerEvent: {}
+[42.129934] (-) TimerEvent: {}
+[42.230197] (-) TimerEvent: {}
+[42.330507] (-) TimerEvent: {}
+[42.430800] (-) TimerEvent: {}
+[42.531081] (-) TimerEvent: {}
+[42.631370] (-) TimerEvent: {}
+[42.731686] (-) TimerEvent: {}
+[42.831945] (-) TimerEvent: {}
+[42.932192] (-) TimerEvent: {}
+[43.032459] (-) TimerEvent: {}
+[43.132752] (-) TimerEvent: {}
+[43.233030] (-) TimerEvent: {}
+[43.333323] (-) TimerEvent: {}
+[43.433599] (-) TimerEvent: {}
+[43.533902] (-) TimerEvent: {}
+[43.634188] (-) TimerEvent: {}
+[43.734461] (-) TimerEvent: {}
+[43.834781] (-) TimerEvent: {}
+[43.935064] (-) TimerEvent: {}
+[44.035373] (-) TimerEvent: {}
+[44.135636] (-) TimerEvent: {}
+[44.235986] (-) TimerEvent: {}
+[44.336328] (-) TimerEvent: {}
+[44.436626] (-) TimerEvent: {}
+[44.536886] (-) TimerEvent: {}
+[44.637146] (-) TimerEvent: {}
+[44.737441] (-) TimerEvent: {}
+[44.837728] (-) TimerEvent: {}
+[44.938037] (-) TimerEvent: {}
+[45.038345] (-) TimerEvent: {}
+[45.138568] (-) TimerEvent: {}
+[45.238804] (-) TimerEvent: {}
+[45.339067] (-) TimerEvent: {}
+[45.439335] (-) TimerEvent: {}
+[45.539635] (-) TimerEvent: {}
+[45.639922] (-) TimerEvent: {}
+[45.740246] (-) TimerEvent: {}
+[45.840602] (-) TimerEvent: {}
+[45.940887] (-) TimerEvent: {}
+[46.041175] (-) TimerEvent: {}
+[46.141486] (-) TimerEvent: {}
+[46.241790] (-) TimerEvent: {}
+[46.342069] (-) TimerEvent: {}
+[46.442361] (-) TimerEvent: {}
+[46.506217] (lidar_pose_estimator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_pose_estimator_node\x1b[0m\n'}
+[46.542507] (-) TimerEvent: {}
+[46.642848] (-) TimerEvent: {}
+[46.743351] (-) TimerEvent: {}
+[46.843638] (-) TimerEvent: {}
+[46.944375] (-) TimerEvent: {}
+[47.044693] (-) TimerEvent: {}
+[47.145105] (-) TimerEvent: {}
+[47.245544] (-) TimerEvent: {}
+[47.346189] (-) TimerEvent: {}
+[47.446619] (-) TimerEvent: {}
+[47.546971] (-) TimerEvent: {}
+[47.647467] (-) TimerEvent: {}
+[47.747832] (-) TimerEvent: {}
+[47.848270] (-) TimerEvent: {}
+[47.948809] (-) TimerEvent: {}
+[48.049506] (-) TimerEvent: {}
+[48.150046] (-) TimerEvent: {}
+[48.250812] (-) TimerEvent: {}
+[48.351558] (-) TimerEvent: {}
+[48.452013] (-) TimerEvent: {}
+[48.552466] (-) TimerEvent: {}
+[48.652735] (-) TimerEvent: {}
+[48.753128] (-) TimerEvent: {}
+[48.853496] (-) TimerEvent: {}
+[48.953799] (-) TimerEvent: {}
+[49.054273] (-) TimerEvent: {}
+[49.154605] (-) TimerEvent: {}
+[49.255033] (-) TimerEvent: {}
+[49.355365] (-) TimerEvent: {}
+[49.455665] (-) TimerEvent: {}
+[49.556064] (-) TimerEvent: {}
+[49.656385] (-) TimerEvent: {}
+[49.701329] (lidar_pose_estimator) StdoutLine: {'line': b'[100%] Built target lidar_pose_estimator_node\n'}
+[49.715519] (lidar_pose_estimator) CommandEnded: {'returncode': 0}
+[49.716233] (lidar_pose_estimator) JobProgress: {'identifier': 'lidar_pose_estimator', 'progress': 'install'}
+[49.728267] (lidar_pose_estimator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator'], 'cwd': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/3345-1-hazem_TIME386753', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hazem-m-abdelaziz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/hazem-m-abdelaziz', 'OLDPWD': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2936', 'SYSTEMD_EXEC_PID': '3345', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5284', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'hazem-m-abdelaziz', 'JOURNAL_STREAM': '9:25800', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hazem-m-abdelaziz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/MATLAB/R2026a/bin', 'SESSION_MANAGER': 'local/hazem:@/tmp/.ICE-unix/3302,unix/hazem:/tmp/.ICE-unix/3302', 'INVOCATION_ID': '06fe6842d5234314971701b67a1c70e2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install/lidar_pose_estimator:/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces:/home/hazem-m-abdelaziz/ros2_ws/install/diff_bot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a89fbfca-be2a-424b-94c7-cd0695a02e38', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/jazzy/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/hazem-m-abdelaziz/ros2_ws/install/lidar_pose_estimator:/home/hazem-m-abdelaziz/ros2_ws/install/matlab_custom_interfaces:/home/hazem-m-abdelaziz/ros2_ws/install/diff_bot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[49.738308] (lidar_pose_estimator) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[49.738908] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/lib/lidar_pose_estimator/lidar_pose_estimator_node\n'}
+[49.741049] (lidar_pose_estimator) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/lib/lidar_pose_estimator/lidar_pose_estimator_node" to ""\n'}
+[49.741423] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/ament_index/resource_index/package_run_dependencies/lidar_pose_estimator\n'}
+[49.741746] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/ament_index/resource_index/parent_prefix_path/lidar_pose_estimator\n'}
+[49.742021] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/environment/ament_prefix_path.sh\n'}
+[49.742229] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/environment/ament_prefix_path.dsv\n'}
+[49.742381] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/environment/path.sh\n'}
+[49.742614] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/environment/path.dsv\n'}
+[49.742809] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/local_setup.bash\n'}
+[49.742976] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/local_setup.sh\n'}
+[49.743117] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/local_setup.zsh\n'}
+[49.743334] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/local_setup.dsv\n'}
+[49.743579] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.dsv\n'}
+[49.743811] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/ament_index/resource_index/packages/lidar_pose_estimator\n'}
+[49.744051] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/cmake/lidar_pose_estimatorConfig.cmake\n'}
+[49.744203] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/cmake/lidar_pose_estimatorConfig-version.cmake\n'}
+[49.744357] (lidar_pose_estimator) StdoutLine: {'line': b'-- Installing: /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.xml\n'}
+[49.746866] (lidar_pose_estimator) CommandEnded: {'returncode': 0}
+[49.756472] (-) TimerEvent: {}
+[49.807685] (lidar_pose_estimator) JobEnded: {'identifier': 'lidar_pose_estimator', 'rc': 0}
+[49.808655] (-) EventReactorShutdown: {}

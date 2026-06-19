@@ -1,0 +1,15 @@
+/fixposition/odometry_enu:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10
+/iv_points_fusion:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 10
+/fixposition/odometry_llh:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 10

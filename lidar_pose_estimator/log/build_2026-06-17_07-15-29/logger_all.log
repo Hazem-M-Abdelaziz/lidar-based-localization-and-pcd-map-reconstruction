@@ -1,0 +1,106 @@
+[0.314s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lidar_pose_estimator', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.314s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lidar_pose_estimator'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x781c4b5d0740>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x781c4b59f7a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x781c4b59f7a0>>, mixin_verb=('build',))
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.566s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.660s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'lidar_pose_estimator'
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.845s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/hazem-m-abdelaziz/ros2_ws/install
+[0.849s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 488 installed packages in /opt/ros/jazzy
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'lidar_pose_estimator' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'lidar_pose_estimator' build argument 'cmake_target' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'lidar_pose_estimator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'lidar_pose_estimator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'lidar_pose_estimator' build argument 'cmake_clean_first' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'lidar_pose_estimator' build argument 'cmake_force_configure' from command line to 'False'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'lidar_pose_estimator' build argument 'ament_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'lidar_pose_estimator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.032s] Level 5:colcon.colcon_core.verb:set package 'lidar_pose_estimator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.032s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_pose_estimator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator', 'merge_install': False, 'path': '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator', 'symlink_install': False, 'test_result_base': None}
+[1.032s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.033s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.033s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator' with build type 'ament_cmake'
+[1.033s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator'
+[1.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.036s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.036s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator
+[8.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator
+[8.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator -- -j8 -l8
+[50.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator -- -j8 -l8
+[50.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator
+[50.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_pose_estimator)
+[50.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/build/lidar_pose_estimator
+[50.826s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator' for CMake module files
+[50.827s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator' for CMake config files
+[50.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_pose_estimator', 'cmake_prefix_path')
+[50.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/hook/cmake_prefix_path.ps1'
+[50.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/hook/cmake_prefix_path.dsv'
+[50.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/hook/cmake_prefix_path.sh'
+[50.830s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/lib'
+[50.830s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/bin'
+[50.830s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/lib/pkgconfig/lidar_pose_estimator.pc'
+[50.830s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/lib/python3.12/site-packages'
+[50.830s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/bin'
+[50.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.ps1'
+[50.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.dsv'
+[50.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.sh'
+[50.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.bash'
+[50.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.zsh'
+[50.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/colcon-core/packages/lidar_pose_estimator)
+[50.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_pose_estimator)
+[50.834s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator' for CMake module files
+[50.835s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator' for CMake config files
+[50.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_pose_estimator', 'cmake_prefix_path')
+[50.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/hook/cmake_prefix_path.ps1'
+[50.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/hook/cmake_prefix_path.dsv'
+[50.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/hook/cmake_prefix_path.sh'
+[50.837s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/lib'
+[50.837s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/bin'
+[50.837s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/lib/pkgconfig/lidar_pose_estimator.pc'
+[50.837s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/lib/python3.12/site-packages'
+[50.838s] Level 1:colcon.colcon_core.environment:checking '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/bin'
+[50.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.ps1'
+[50.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.dsv'
+[50.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.sh'
+[50.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.bash'
+[50.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/lidar_pose_estimator/package.zsh'
+[50.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/lidar_pose_estimator/share/colcon-core/packages/lidar_pose_estimator)
+[50.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[50.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[50.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[50.841s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[50.934s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[50.934s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[50.934s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[50.952s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[50.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/local_setup.ps1'
+[50.959s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/_local_setup_util_ps1.py'
+[50.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/setup.ps1'
+[50.962s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/local_setup.sh'
+[50.973s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/_local_setup_util_sh.py'
+[50.974s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/setup.sh'
+[50.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/local_setup.bash'
+[50.991s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/setup.bash'
+[50.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/local_setup.zsh'
+[51.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hazem-m-abdelaziz/ros2_ws/src/lidar_pose_estimator/install/setup.zsh'
