@@ -33,8 +33,8 @@ Project_Root/
 │   ├── pose_error.csv                               # csv file created by evaluation node for the recorded bag file
 │   ├── qos_override.yaml                            # file for bag file playing arguments
 └── LICENSE                                          # Project license
-└── lidarBasedSolutionPipeline                       # Project presentation to discuss the pipeline
 └── README.md                                        # Project documentation
+└── lidarBasedSolutionPipeline                       # Project presentation to discuss the pipeline
 ```
 
 ## 🧰 Setup Prerequisites
