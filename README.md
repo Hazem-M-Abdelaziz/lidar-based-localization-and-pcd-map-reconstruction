@@ -15,9 +15,9 @@ Project_Root/
 │   ├── build/                                       # ROS2 built files for the package
 │   ├── config/                                      # Configurations folder
 |       ├── micropolisConfig.rviz                    # RViz config file passed when visualizing data.
-│   ├── include/lidar_pose_estimator/                # include folder containing created header files.
+│   ├── include/lidar_pose_estimator/              # include folder containing created header files.
 |       ├── evaluation_node.hpp                      # Header file for evaluation node.
-|       ├── lidar_pose_estimator_node.hpp            # Header file for lidar pose estimator node.
+|       ├── lidar_pose_estimator_node.hpp          # Header file for lidar pose estimator node.
 │   ├── install/                                     # ROS2 Install files for the package
 │   ├── log/                                         # ROS2 log files for the package 
 │   ├── src/                                         # ROS2 source code folder for the package 
