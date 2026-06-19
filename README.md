@@ -96,7 +96,7 @@ for more info check the `lidarBasedSolutionPipeline.pptx` in the project root di
    ```
 4. Now you can run both nodes using:
    ```bash
-   ros2 run lidar_pose_estimator lidar_pose_estimator_node   --ros-args   -p map_pcd_path:=desired_output_for_pcd_map_file_path_by_estimator_node>   -p tum_path:=:=<desired_output_path_for_TUM_estimator_node_file_output>
+   ros2 run lidar_pose_estimator lidar_pose_estimator_node   --ros-args   -p map_pcd_path:=<desired_output_for_pcd_map_file_path_by_estimator_node>   -p tum_path:=:=<desired_output_path_for_TUM_estimator_node_file_output>
    ```
    for the lidar pose estimator node, and
    ```bash
