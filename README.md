@@ -33,8 +33,39 @@ Project_Root/
 │   ├── pose_error.csv                               # csv file created by evaluation node for the recorded bag file
 │   ├── qos_override.yaml                            # file for bag file playing arguments
 └── LICENSE                                          # Project license
+└── lidarBasedSolutionPipeline                       # Project presentation to discuss the pipeline
 └── README.md                                        # Project documentation
 ```
+
+## 🧰 Setup Prerequisites
+- Tools used
+   - Ubuntu: 24.04
+   - ROS2 distro: Jazyy
+
+- Installed dependencies
+
+   You can install required dependencies using:
+   ```bash
+   sudo apt update
+   sudo apt install -y \
+     libpcl-dev \
+     ros-jazzy-pcl-conversions \
+     ros-jazzy-pcl-ros \
+     ros-jazzy-tf2-eigen \
+     ros-jazzy-tf2-geometry-msgs
+   ```
+
+## 👷 How the Pipeline Works
+
+The package runs two cooperating nodes.
+
+**`lidar_pose_estimator_node`** subscribes to raw `PointCloud2` scans, voxel-downsamples and range-filters each one, then caps the point count for stable gradients before feeding it to PCL's NDT (Normal Distributions Transform) registration. A constant-velocity motion prior — extrapolated from the last accepted transform — seeds NDT's initial guess for faster, more reliable convergence. Registration runs scan-to-map once the accumulated map is dense enough, falling back to scan-to-scan against the previous frame if scan-to-map diverges; a fitness-score threshold decides whether a result is accepted or the last good pose is held. Accepted poses are accumulated into a running map cloud (periodically re-voxelized) and published as odometry, `PoseStamped`, a `map → lidar` TF, and a growing `nav_msgs/Path`, while every frame's pose is logged to a TUM-format trajectory file. The map itself is saved as a `.pcd` on shutdown.
+
+**`evaluation_node`** subscribes to that LiDAR odometry alongside an external ENU ground-truth odometry source (e.g. `/fixposition/odometry_enu`), auto-aligning the two by computing the yaw offset between the first LiDAR pose and the first ENU pose (or using a manual offset if auto-alignment is unreliable), so both trajectories share a common origin and heading. It republishes both paths (`/lidar_path`, `/enu_path`) for side-by-side comparison in RViz2, computes a per-frame Euclidean position error and rolling RMSE (`/pose_error`), and on shutdown — or via a `/save_map` service — writes out the final map PCD, a TUM trajectory file, and a CSV log of frame-by-frame LiDAR vs. ENU positions with error/RMSE, giving a complete, reproducible record for offline accuracy evaluation.
+
+for more info check the `lidarBasedSolutionPipeline.pptx` in the project root directory.
+
+
 
 ## ⚙️ Project Setup
 0. Before running the program, you can check bag file info using:
@@ -117,3 +148,35 @@ Project_Root/
 
 ## So for example you have the interface like this:
 <img width="1865" height="1046" alt="Image" src="https://github.com/user-attachments/assets/c66dd7ec-fbf9-4861-bb8b-7bbeaeb531cd" />
+
+and to visualize stored point cloud map once done and saved, you need to have `pcl_viewer`, if you don't you can install it using 
+```
+sudo apt install pcl-tools
+```
+and once it is installed you can view saved pcd using:
+```
+pcl_viewer <path_to_recorded_.pcd_file>
+```
+expected output according to the bag file and processing parameters:
+<img width="988" height="606" alt="Image" src="https://github.com/user-attachments/assets/3b7c4e1b-c660-426f-877d-bef551e0391f" />
+
+## ⏳ Results
+
+The proposed pipeline successfully generated a consistent point cloud map from recorded LiDAR scans and also generate a TUM formatted file for the estimated lidar-based path.
+
+### Performance Numerical Analysis
+If you tried the solution you could see at the end of the bag file an output error ~ [0.1 to 0.25] which is in most cases unacceptable, and by enhancing the path trajectory, accumulated point cloud map also will be enhanced, that unacceptable margin might be due to many reasons, one of them is comparing the results to enu data which is commonly converted gps data in lla coordinates to global enu corrdinates, meanwhile these GPS data will always have uncertainites and the numerical conversion to enu also might lose us some of the correctness.
+
+### How to enhance the Performance!
+- Perform fusion techniques with different sensory elements, such as (Wheels encoders, mounted cameras on the vehicle, IMU of GNSS system, etc...).
+- registering to well constructed and extracted point cloud map as a reference.
+- ground segementation, it often works with outdoor scenes as the registration will be performed based on more distinctive features.
+- Performing loop closure to avoid any drifts for the generated path.
+
+
+## 📧 Contacts 
+
+- **Hazem Mohsen**:
+
+  - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_PROFILE)
+  - [![Email](https://img.shields.io/badge/Email-gmail-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:hazemmohsen07@gmail.com)
