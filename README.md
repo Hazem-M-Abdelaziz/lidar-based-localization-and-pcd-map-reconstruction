@@ -11,6 +11,9 @@ The following is the folder structure of the project, highlighting key files and
 
 ```plaintext
 Project_Root/
+├── MatlabTrial/                                 # Matlab directory for the same nearly the pipeline as cpp nodes
+│   ├── lidarProcessing.mlx                          # Matlab live script for the processing pipeline
+│   ├── lidarProcessing.pdf                          # Matlab processing pipeline saved as pdf
 ├── lidar_pose_estimator/                        # ROS2 Pkg directory
 │   ├── build/                                       # ROS2 built files for the package
 │   ├── config/                                      # Configurations folder
